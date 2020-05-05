@@ -27,8 +27,7 @@ function signIn(usrnm, pswrd) {
 	if (usrnm === database[0].username && 
 		pswrd === database[0].password) {
 		console.log(newsFeed);
-	} 
-	if (usrnm === database[1].username && 
+	} else if (usrnm === database[1].username && 
 		pswrd === database[1].password) {
 		console.log(newsFeed);
 	}
