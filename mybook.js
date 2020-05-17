@@ -15,8 +15,8 @@ var newsFeed = [
 	timeline: "So tired of all that learning"
 	},
 	{
-	username: "Bob",
-	timeline: "So tired of all that learning"
+	username: "Jill",
+	timeline: "This too shall pass"
 	}
 ];
 
@@ -27,9 +27,11 @@ function signIn(usrnm, pswrd) {
 	if (usrnm === database[0].username && 
 		pswrd === database[0].password) {
 		console.log(newsFeed);
+	alert("Check your console, ctrl shift K");
 	} else if (usrnm === database[1].username && 
 		pswrd === database[1].password) {
 		console.log(newsFeed);
+		alert("Check your console, ctrl shift K");
 	}
 
 	else {
